@@ -1,0 +1,10 @@
+CREATE TABLE FROTAS_ENTREGA (
+    id_entregador INT PRIMARY KEY,
+    nome_entregador VARCHAR(100),
+    total_viagens_mes INT
+);
+
+INSERT INTO FROTAS_ENTREGA VALUES (1, 'Carlos Silva', 42);
+INSERT INTO FROTAS_ENTREGA VALUES (2, 'Juliana Reis', 18); 
+INSERT INTO FROTAS_ENTREGA VALUES (3, 'Marcos Costa', 55);
+INSERT INTO FROTAS_ENTREGA VALUES (4, 'Amanda Souza', 25); 
