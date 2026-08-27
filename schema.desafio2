@@ -1,0 +1,11 @@
+CREATE TABLE NOTAS_ALUNOS (
+    id_aluno INT PRIMARY KEY,
+    nome_aluno VARCHAR(100),
+    disciplina VARCHAR(50),
+    nota DECIMAL(4,2)
+);
+
+INSERT INTO NOTAS_ALUNOS VALUES (1, 'Isabela Piazza', 'Banco de Dados', 9.50); 
+INSERT INTO NOTAS_ALUNOS VALUES (2, 'Rodrigo Melo', 'Banco de Dados', 6.00);
+INSERT INTO NOTAS_ALUNOS VALUES (3, 'Beatriz Santos', 'Banco de Dados', 8.50); 
+INSERT INTO NOTAS_ALUNOS VALUES (4, 'Gabriel Almeida', 'Banco de Dados', 5.00);
