@@ -1,0 +1,5 @@
+SELECT nome_produto, preco
+FROM PRODUTOS_LOJA
+WHERE categoria = 'Eletrônicos' 
+  AND preco > ( SELECT AVG(preco) FROM PRODUTOS_LOJA WHERE categoria = 'Eletrônicos' )
+ORDER BY preco DESC;
