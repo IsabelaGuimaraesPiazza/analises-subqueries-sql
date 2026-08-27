@@ -1,0 +1,12 @@
+CREATE TABLE PRODUTOS_LOJA (
+    id_produto INT PRIMARY KEY,
+    nome_produto VARCHAR(100),
+    categoria VARCHAR(50),
+    preco DECIMAL(10,2)
+);
+
+INSERT INTO PRODUTOS_LOJA VALUES (1, 'Fone Básico', 'Eletrônicos', 150.00);
+INSERT INTO PRODUTOS_LOJA VALUES (2, 'Smartphone Premium', 'Eletrônicos', 4500.00); 
+INSERT INTO PRODUTOS_LOJA VALUES (3, 'Camiseta Algodão', 'Vestuário', 80.00);
+INSERT INTO PRODUTOS_LOJA VALUES (4, 'Notebook Ultrawide', 'Eletrônicos', 6000.00); 
+INSERT INTO PRODUTOS_LOJA VALUES (5, 'Mouse Simples', 'Eletrônicos', 100.00);
