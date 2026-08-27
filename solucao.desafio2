@@ -1,0 +1,5 @@
+SELECT nome_aluno, nota
+FROM NOTAS_ALUNOS
+WHERE disciplina = 'Banco de Dados' 
+  AND nota > ( SELECT AVG(nota) FROM NOTAS_ALUNOS WHERE disciplina = 'Banco de Dados' )
+ORDER BY nota DESC;
