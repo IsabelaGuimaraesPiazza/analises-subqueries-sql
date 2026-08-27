@@ -1,5 +1,5 @@
 # analises-subqueries-sql
-Este repositório contém o desenvolvimento e a resolução de **três desafios práticos de SQL com subqueries** focados em resolver dores reais em três setores de mercado: **E-commerce, Educação e Logística**. 
+Este repositório contém resolução de **três desafios práticos de SQL com subqueries** para resolver dores reais em três setores de mercado: **E-commerce, Educação e Logística**. 
 
 O objetivo é demonstrar o conhecimento de **Subqueries (Consultas Aninhadas)** 
 
