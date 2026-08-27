@@ -1,0 +1,4 @@
+SELECT nome_entregador, total_viagens_mes
+FROM FROTAS_ENTREGA 
+WHERE total_viagens_mes < ( SELECT AVG(total_viagens_mes) FROM FROTAS_ENTREGA)
+ORDER BY total_viagens_mes ASC;
